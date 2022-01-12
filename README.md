@@ -28,7 +28,8 @@
 * Prompt the user for a double
   * This will be the distance to be traveled
 * For each Car:
-  * Print whether the car is or is not a gas guzzler
-  * Print whether the car is or is not spacious
+  * Print the make and model of that Car
+  * Print whether the Car is or is not a gas guzzler
+  * Print whether the Car is or is not spacious
   * Print the result of calling that Car's honk method
-  * Print whether the car can travel the distance the user entered
+  * Print whether the Car can travel the distance the user entered
