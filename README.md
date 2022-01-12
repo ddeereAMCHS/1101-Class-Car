@@ -19,7 +19,7 @@
   - an isSpacious method that returns true if the number of seats is greater than 5
   - a honk method that prints "HONK" to the screen
   - a canTravelDistance that takes a double as a paramter which is the distance to be traveled and returns true if the Car can travel that distance with a full tank
-
+- - - -
 * Create a program called `CarTester.java`
 * Prompt the user for a filename
 * Read in all the lines in this file and store them in an array
