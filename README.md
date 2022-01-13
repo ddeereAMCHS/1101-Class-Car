@@ -22,6 +22,7 @@
 - - - -
 * Create a program called `CarTester.java`
 * Prompt the user for a filename
+* Skip the first line of the file
 * Read in all the lines in this file and store them in an array of Strings
 * Create an array of Cars that is the same size as the String array
 * For each element in the array of Strings, split it on commas, trim the values, and create a Car object with those values that you then store in the array of Cars
@@ -34,3 +35,33 @@
   * Print the result of calling that Car's honk method
   * Print whether the Car can travel the distance the user entered
 
+***Example Input:***\
+cars1.csv\
+332.5\
+***Exapmle Content of cars1.csv:***\
+Make, Model, NumDoors, NumSeats, MPG, GasTankSize\
+Chevy, Silverado, 4, 5, 16.2, 24.8\
+Ford, Mustang, 2, 4, 13.4, 16.0\
+Honda, Civic, 4, 5, 27.3, 12.4\
+Toyota, 4Runner, 4, 7, 14.1, 23.0\
+***Example Output:***\
+Chevy Silverado\
+The Chevy Silverado is not a gas guzzler\
+The Chevy Silverado is not spacious\
+HONK\
+The Chevy Silverado can travel 332.5 miles on a full tank of gas\
+Ford Mustang\
+The Ford Mustang is a gas guzzler\
+The Ford Mustang is not spacious\
+HONK\
+The Ford Mustang cannot travel 332.5 miles on a full tank of gas\
+Honda Civic\
+The Honda Civic is not a gas guzzler\
+The Honda Civic is not spacious\
+HONK\
+The Honda Civic can travel 332.5 miles on a full tank of gas\
+Toyota 4Runner\
+The Toyota 4Runner is a gas guzzler\
+The Toyota 4Runner is spacious\
+HONK\
+The Toyota 4Runner cannot travel 332.5 miles on a full tank of gas
