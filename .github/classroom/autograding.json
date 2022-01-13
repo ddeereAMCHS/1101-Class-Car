@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "cars1.csv, 332.5",
+      "setup": "javac CarTester.java",
+      "run": "java CarTester",
+      "input": "cars1.csv\r\n332.5",
+      "output": "Chevy Silverado\r\nThe Chevy Silverado is not a gas guzzler\r\nThe Chevy Silverado is not spacious\r\nHONK\r\nThe Chevy Silverado can travel 332.5 miles on a full tank of gas\r\nFord Mustang\r\nThe Ford Mustang is a gas guzzler\r\nThe Ford Mustang is not spacious\r\nHONK\r\nThe Ford Mustang cannot travel 332.5 miles on a full tank of gas\r\nHonda Civic\r\nThe Honda Civic is not a gas guzzler\r\nThe Honda Civic is not spacious\r\nHONK\r\nThe Honda Civic can travel 332.5 miles on a full tank of gas\r\nToyota 4Runner\r\nThe Toyota 4Runner is a gas guzzler\r\nThe Toyota 4Runner is spacious\r\nHONK\r\nThe Toyota 4Runner cannot travel 332.5 miles on a full tank of gas$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "cars1.csv, 300.0",
+      "setup": "javac CarTester.java",
+      "run": "java CarTester",
+      "input": "cars1.csv\r\n300.0",
+      "output": "Chevy Silverado\r\nThe Chevy Silverado is not a gas guzzler\r\nThe Chevy Silverado is not spacious\r\nHONK\r\nThe Chevy Silverado can travel 300.0 miles on a full tank of gas\r\nFord Mustang\r\nThe Ford Mustang is a gas guzzler\r\nThe Ford Mustang is not spacious\r\nHONK\r\nThe Ford Mustang cannot travel 300.0 miles on a full tank of gas\r\nHonda Civic\r\nThe Honda Civic is not a gas guzzler\r\nThe Honda Civic is not spacious\r\nHONK\r\nThe Honda Civic can travel 300.0 miles on a full tank of gas\r\nToyota 4Runner\r\nThe Toyota 4Runner is a gas guzzler\r\nThe Toyota 4Runner is spacious\r\nHONK\r\nThe Toyota 4Runner can travel 300.0 miles on a full tank of gas$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
