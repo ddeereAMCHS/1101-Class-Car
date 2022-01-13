@@ -22,9 +22,9 @@
 - - - -
 * Create a program called `CarTester.java`
 * Prompt the user for a filename
-* Read in all the lines in this file and store them in an array
-* Create an array of Cars that is the same size as the other array
-* For each element in the array, split it on commas, trim the values, and create a Car object with those values that you then store in the array of Cars
+* Read in all the lines in this file and store them in an array of Strings
+* Create an array of Cars that is the same size as the String array
+* For each element in the array of Strings, split it on commas, trim the values, and create a Car object with those values that you then store in the array of Cars
 * Prompt the user for a double
   * This will be the distance to be traveled
 * For each Car:
@@ -33,3 +33,4 @@
   * Print whether the Car is or is not spacious
   * Print the result of calling that Car's honk method
   * Print whether the Car can travel the distance the user entered
+
