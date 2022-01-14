@@ -25,8 +25,10 @@
 * Prompt the user for a filename
 * Skip the first line of the file
 * Read in all the lines in this file and store them in an array of Strings
-* Create an array of Cars that is the same size as the String array
+* Create an array of Cars that will hold one more element than the String array
 * For each element in the array of Strings, split it on commas, trim the values, and create a Car object with those values that you then store in the array of Cars
+* For the last element in the Car array, create a Car object with the default constructor
+  * Prompt the user to enter values for each data member and then use the setter methods to assign those values to the Car object
 * Prompt the user for a double
   * This will be the distance to be traveled
 * For each Car:
@@ -38,6 +40,12 @@
 
 ***Example Input:***\
 cars1.csv\
+Chevy\
+Suburban\
+4\
+7\
+21.1\
+27.8\
 332.5\
 ***Exapmle Content of cars1.csv:***\
 Make, Model, NumDoors, NumSeats, MPG, GasTankSize\
@@ -65,4 +73,9 @@ Toyota 4Runner\
 The Toyota 4Runner is a gas guzzler\
 The Toyota 4Runner is spacious\
 HONK\
-The Toyota 4Runner cannot travel 332.5 miles on a full tank of gas
+The Toyota 4Runner cannot travel 332.5 miles on a full tank of gas\
+Chevy Suburban\
+The Chevy Suburban is not a gas guzzler\
+The Chevy Suburban is spacious\
+HONK\
+The Chevy Suburban can travel 332.5 miles on a full tank of gas
