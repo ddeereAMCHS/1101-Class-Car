@@ -22,6 +22,60 @@
   - a canTravelDistance that takes a double as a parameter which is the distance to be traveled and returns true if the Car can travel that distance with a full tank of gas
 - - - -
 * Create a program called `CarTester.java`
+* Create a Car object using the default constructor
+* Prompt the user for the following values and store them in variables:
+  * Make
+  * Model
+  * Number of doors
+  * Number of seats
+  * Miles per gallon
+  * Gas tank size
+* Use the setter methods to assign those values to the Car object
+* Prompt the user again for the following values and store them in variables:
+  * Make
+  * Model
+  * Number of doors
+  * Number of seats
+  * Miles per gallon
+  * Gas tank size
+* Use those values to create another Car object using the parameterized constructor
+* Prompt the user for a double
+  * This will be the distance to be traveled
+* For each Car:
+  * Print the make and model of that Car
+  * Print whether the Car is or is not a gas guzzler
+  * Print whether the Car is or is not spacious
+  * Call that Car's honk method
+  * Print whether the Car can travel the distance the user entered
+- - - -
+***Example Input:***\
+Chevy\
+Suburban\
+4\
+7\
+21.1\
+27.8\
+Ford\
+Mustang\
+2\
+4\
+13.4\
+16.0\
+332.5\
+***Example Output:***\
+Chevy Suburban\
+The Chevy Suburban is not a gas guzzler\
+The Chevy Suburban is spacious\
+HONK\
+The Chevy Suburban can travel 332.5 miles on a full tank of gas\
+Ford Mustang\
+The Ford Mustang is a gas guzzler\
+The Ford Mustang is not spacious\
+HONK\
+The Ford Mustang cannot travel 332.5 miles on a full tank of gas\
+- - - -
+**EXTRA CREDIT**
+* Create a program called `CarTesterExtra.java`
 * Prompt the user for a filename
 * Skip the first line of the file
 * Read in all the lines in this file and store them in an array of Strings
@@ -37,7 +91,8 @@
   * Print whether the Car is or is not spacious
   * Print the result of calling that Car's honk method
   * Print whether the Car can travel the distance the user entered
-
+- - - -
+**EXTRA CREDIT**\
 ***Example Input:***\
 cars1.csv\
 Chevy\
