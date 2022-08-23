@@ -1,5 +1,7 @@
 # Car Class
 
+## Due: DoW MM/DD at 11:59 PM
+
 - Create a program called `Car.java`
 - The Car class should have the following data members:
   - The make
