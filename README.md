@@ -74,4 +74,4 @@ Ford Mustang\
 The Ford Mustang is a gas guzzler\
 The Ford Mustang is not spacious\
 HONK\
-The Ford Mustang cannot travel 332.5 miles on a full tank of gas\
+The Ford Mustang cannot travel 332.5 miles on a full tank of gas
