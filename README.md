@@ -1,6 +1,6 @@
 # Car Class
 
-## Due: Wed 2/1 at 11:59 PM
+## Due: Fri 2/2 at 11:59 PM
 
 - Create a program called `Car.java`
 - The Car class should have the following data members:
